@@ -181,7 +181,7 @@ Full synopsis: [alpha-tek-whitepaper](https://github.com/JohnnyxSmokes/alpha-tek
 | **Dev heat** | [github.com/JohnnyxSmokes](https://github.com/JohnnyxSmokes) contribution graph |
 | **Community** | [discord.gg/EpicAlpha](https://discord.gg/EpicAlpha) |
 
-Thousands of commits, multi-year trench reality, daily shipping discipline (Cursor Day **81** and counting as of this public write-up era). Private repositories intentionally hide competitive implementation while the **green grid** stays verifiable.
+Thousands of commits on the current platform era, grounded in a **14+ year** crypto track (BTC 2012 → present). Daily shipping discipline (Cursor Day **81** and counting). Private repositories intentionally hide competitive implementation while the **green grid** stays verifiable.
 
 ---
 
