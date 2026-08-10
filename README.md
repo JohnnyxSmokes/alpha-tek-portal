@@ -166,7 +166,9 @@ Free intelligence for years is not a business model by itself. Portal sustainabi
 
 Honest boundary: on-chain programs are **publicly proven on Solana devnet**; mainnet requires external audit gates. Product and Discord do not wait on token theater.
 
-Full synopsis: [alpha-tek-whitepaper](https://github.com/JohnnyxSmokes/alpha-tek-whitepaper).
+Full synopsis: [alpha-tek-whitepaper](https://github.com/JohnnyxSmokes/alpha-tek-whitepaper).  
+**AAI Hub micro-footprint:** [aai-hub](https://github.com/JohnnyxSmokes/aai-hub) · [Open hub](https://www.alphatek.app/dashboard/aai)  
+**Discord licensing micro-footprint:** [discord-licensing](https://github.com/JohnnyxSmokes/discord-licensing)
 
 ---
 
