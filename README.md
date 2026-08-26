@@ -32,7 +32,7 @@
       <img src="https://img.shields.io/badge/Build%20Journey-Changelog-00D4FF?style=for-the-badge&labelColor=0A0A0A" alt="Changelog" />
     </a>
     &nbsp;
-    <a href="https://discord.gg/EpicAlpha">
+    <a href="https://discord.gg/epicalpha">
       <img src="https://img.shields.io/badge/Discord-Epic%20Alpha-5865F2?style=for-the-badge&labelColor=0A0A0A&logo=discord&logoColor=white" alt="Discord" />
     </a>
   </p>
@@ -74,6 +74,30 @@ Most “crypto terminal” products fragment users into:
 
 ---
 
+## Live Pump.fun Intelligence
+
+What the Pump ecosystem exposes live is reconciled into Alpha Tek through three independent lanes:
+
+```mermaid
+flowchart LR
+  portalWs["PumpPortal WS"] --> ingest["Alpha Tek Ingest"]
+  frontendRest["Frontend V3 REST"] --> ingest
+  fluxbeamWs["FluxBeam WS"] --> ingest
+  ingest --> provenance["Canonical, Source-Aware Rows"]
+  swapMetrics["Swap API Metrics"] --> provenance
+  provenance --> explorer["Meme Scope and Movers"]
+```
+
+- **56 upstream routes audited** through production proxy.
+- **35 live JSON routes** and **4 auth-gated routes** cataloged.
+- **16 retired routes** blocked before runtime network egress.
+- Pump.fun and BONK/Raydium rows stay labeled and independently selectable.
+- Last-good snapshots and per-source circuits prevent one upstream failure from blanking the desk.
+
+![Pump.fun Ingestion Resilience](https://www.AlphaTek.App/marketing/infographics/pump-ingestion-resilience-2026-08/01-live-parity.png)
+
+---
+
 ## Product Surfaces (Live)
 
 | Surface | Job |
@@ -87,6 +111,8 @@ Most “crypto terminal” products fragment users into:
 | **KOL Scope** | Influencer / social heat without fake certainty |
 | **Alpha Guard** | Host, domain, mint, and approval-awareness under Alpha brand |
 | **Alpha Terminal** | Hybrid coin pages (majors + catalog) for research-grade context |
+| **Trench Replay Theater** | Wallet + token replay, **Trench Cast**, Forecast, drawings — [open theater](https://www.alphatek.app/dashboard/alpha-replay) |
+| **Market Replay** | Any token page → fullscreen chart playback, presentation mode |
 | **Alpha Academy** | Interactive education paths (courses, quizzes, certificates) |
 | **AAI Hub** | Stake / claim / utility rails (devnet program proof; mainnet gated) |
 | **Subscribe / Help** | Stripe-backed access + support surfaces |
@@ -102,19 +128,22 @@ Most “crypto terminal” products fragment users into:
                     ┌─────────────────────────┐
                     │   Alpha Tek Portal      │
                     │   alphatek.app          │
+                    │   Market + Trench Replay│
                     └───────────┬─────────────┘
            ┌────────────────────┼────────────────────┐
            │                    │                    │
            ▼                    ▼                    ▼
    Epic Alpha Discord    Alpha Trench (ext)     AAI Utility
-   commands · feeds      trench client shell    stake · gates
-   free depth first      inspectable ship       flywheel
+   commands · feeds      paper · journal ·      stake · gates
+   free depth first      Trade Replay           flywheel
+                         Trench Cast (web)
 ```
 
 Everything is designed as **one ecosystem**, not three disconnected brands sharing a logo.
 
 - Portal ↔ Discord for command-and-control + community proof  
-- Portal ↔ Alpha Trench for pair-page execution / guard / journal  
+- Portal ↔ Alpha Trench for pair-page execution / guard / journal / platform history replay  
+- Portal ↔ **Trench Replay Theater** for Cast, Forecast, Market Replay, Wallet Replay  
 - Portal ↔ AAI Hub for utility and retention  
 
 See also:
@@ -179,7 +208,7 @@ Full synopsis: [alpha-tek-whitepaper](https://github.com/JohnnyxSmokes/alpha-tek
 | **Live product** | [alphatek.app](https://www.alphatek.app) |
 | **Ship log** | [alphatek.app/changelog](https://www.alphatek.app/changelog) — Build Journey |
 | **Dev heat** | [github.com/JohnnyxSmokes](https://github.com/JohnnyxSmokes) contribution graph |
-| **Community** | [discord.gg/EpicAlpha](https://discord.gg/EpicAlpha) |
+| **Community** | [discord.gg/epicalpha](https://discord.gg/epicalpha) |
 
 Thousands of commits on the current platform era, grounded in a **14+ year** crypto track (BTC 2012 → present). Daily shipping discipline (Cursor Day **81** and counting). Private repositories intentionally hide competitive implementation while the **green grid** stays verifiable.
 
@@ -202,7 +231,7 @@ Thousands of commits on the current platform era, grounded in a **14+ year** cry
 | **Changelog** | https://www.alphatek.app/changelog |
 | **AAI Hub** | https://www.alphatek.app/dashboard/aai |
 | **Academy** | https://www.alphatek.app/dashboard/alpha-academy |
-| **Discord** | https://discord.gg/EpicAlpha |
+| **Discord** | https://discord.gg/epicalpha |
 | **X** | https://x.com/BitcoinHomework |
 
 ---
