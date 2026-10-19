@@ -32,7 +32,7 @@
       <img src="https://img.shields.io/badge/Build%20Journey-Changelog-00D4FF?style=for-the-badge&labelColor=0A0A0A" alt="Changelog" />
     </a>
     &nbsp;
-    <a href="https://discord.gg/epicalpha">
+    <a href="https://discord.gg/sPW3tJk">
       <img src="https://img.shields.io/badge/Discord-Epic%20Alpha-5865F2?style=for-the-badge&labelColor=0A0A0A&logo=discord&logoColor=white" alt="Discord" />
     </a>
   </p>
@@ -222,7 +222,7 @@ Full synopsis: [alpha-tek-whitepaper](https://github.com/JohnnyxSmokes/alpha-tek
 | **Live product** | [alphatek.app](https://www.alphatek.app) |
 | **Ship log** | [alphatek.app/changelog](https://www.alphatek.app/changelog) — Build Journey |
 | **Dev heat** | [github.com/JohnnyxSmokes](https://github.com/JohnnyxSmokes) contribution graph |
-| **Community** | [discord.gg/epicalpha](https://discord.gg/epicalpha) |
+| **Community** | [discord.gg/sPW3tJk](https://discord.gg/sPW3tJk) |
 
 Thousands of commits on the current platform era, grounded in a **14+ year** crypto track (BTC 2012 to present). The public changelog is the ship log. Private repositories hide competitive implementation while the contribution graph stays verifiable.
 
@@ -245,7 +245,7 @@ Thousands of commits on the current platform era, grounded in a **14+ year** cry
 | **Changelog** | https://www.alphatek.app/changelog |
 | **AAI Hub** | https://www.alphatek.app/dashboard/aai |
 | **Academy** | https://www.alphatek.app/dashboard/alpha-academy |
-| **Discord** | https://discord.gg/epicalpha |
+| **Discord** | https://discord.gg/sPW3tJk |
 | **X** | https://x.com/BitcoinHomework |
 
 ---
