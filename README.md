@@ -15,7 +15,7 @@
 
   <p>
     <strong>Crypto Intelligence At One View</strong><br />
-    <sub>Web platform · Multi-chain · Explorer · Discover · TG Arena · KOL · Alpha Guard · AAI Hub</sub>
+    <sub>Web platform · Multi-chain · Explorer · Discover · News · Market Intel · TG Arena · KOL · Alpha Guard · Alpha Trench · AAI Hub</sub>
   </p>
 
   <p>
@@ -115,7 +115,15 @@ flowchart LR
 | **Market Replay** | Any token page → fullscreen chart playback, presentation mode |
 | **Alpha Academy** | Interactive education paths (courses, quizzes, certificates) |
 | **AAI Hub** | Stake / claim / utility rails (devnet program proof; mainnet gated) |
-| **Subscribe / Help** | Stripe-backed access + support surfaces |
+| **News Hub** | One merged headline desk: exchange news, CryptoRank, CoinGecko Buzz, Bitcoin.com |
+| **Market Intel** | Global metrics, market pulse, ETF net flow, derivatives, cycle indicators, click-through price chart |
+| **Watchlist** | Saved coins with price, market cap, volume, and 24h direction |
+| **Alpha Spy** | Entity and connection context for mints and wallets |
+| **Alpha Trench extension** | Instant Trade, paper books, Guard, Mint Intel. Linked sessions post to the live trench leaderboard and weekly trade contests |
+| **API Library** | **1,500+** platform endpoints behind one Alpha Tek session. Public catalog on the site, keys stay server-side |
+| **Alpha Tek MCP** | Coming soon. Same library, shaped for agents |
+| **Alpha Brain / MLM** | Append-only memory for calls, search heat, and replay. Query by mint, fast enough to rank Trench Cast and paper context |
+| **Subscribe / Help** | Stripe payments and support |
 | **Build Journey / Changelog** | Public ship log and contribution narrative |
 
 **Open it:** [https://www.alphatek.app](https://www.alphatek.app)
@@ -134,17 +142,22 @@ flowchart LR
            │                    │                    │
            ▼                    ▼                    ▼
    Epic Alpha Discord    Alpha Trench (ext)     AAI Utility
-   commands · feeds      paper · journal ·      stake · gates
+   commands · feeds      paper · journal ·      stake · referral
    free depth first      Trade Replay           flywheel
+                         live leaderboard
+                         weekly contests
                          Trench Cast (web)
 ```
 
 Everything is designed as **one ecosystem**, not three disconnected brands sharing a logo.
 
-- Portal ↔ Discord for command-and-control + community proof  
-- Portal ↔ Alpha Trench for pair-page execution / guard / journal / platform history replay  
-- Portal ↔ **Trench Replay Theater** for Cast, Forecast, Market Replay, Wallet Replay  
-- Portal ↔ AAI Hub for utility and retention  
+- Portal ↔ Discord for command-and-control + community proof
+- Portal ↔ Alpha Trench for pair-page execution, Guard, journal, and platform history replay
+- Portal ↔ the trench leaderboard and weekly trade contests when the extension session is linked
+- Portal ↔ **Trench Replay Theater** for Cast, Forecast, Market Replay, Wallet Replay
+- Portal ↔ Alpha Brain / MLM so calls, heat, and replay stay queryable by mint
+- Portal ↔ the API library (1,500+ endpoints). Alpha Tek MCP is the agent door, marked Coming Soon
+- Portal ↔ AAI Hub for utility, staking, and the referral ladder  
 
 See also:
 
@@ -167,7 +180,7 @@ Alpha branding is **public**. Vendor plumbing stays server-side. Partnerships an
 | **DEX / launch discovery** | Pump.fun ecosystem · Raydium-class pools · Dex research anchors |
 | **Social / KOL** | KOL Scan-class boards · curated X/Telegram call pathways |
 | **Markets** | CoinGecko · CMC-class macro · Hyperliquid perps context · prediction markets |
-| **Auth & payments** | Privy-class wallet login · Stripe subscriptions |
+| **Auth & payments** | Privy wallet login · Stripe subscriptions · JWT sessions |
 | **Infra** | Production cloud hosting · PostgreSQL · institutional UX themes |
 
 Exact routing is private IP. User-facing story: **many feeds, one Alpha layer.**
@@ -176,12 +189,13 @@ Exact routing is private IP. User-facing story: **many feeds, one Alpha layer.**
 
 ## Security Posture (What Users Should Expect)
 
-- **Server-side keys only** — client never holds provider API secrets  
-- **JWT / wallet session auth** for personal and paid surfaces  
-- **Freshness-aware UI** — live dashboards designed for honest data age, not silent stale panels  
-- **Alpha Guard** — safety language under Alpha brand on portal + extension + Discord  
+- **Server-side keys only.** The browser never holds provider API secrets.
+- **Privy** for wallet login, **Stripe** for payments, **JWT** for the Alpha Tek session.
+- **Freshness-aware UI.** Live dashboards show honest data age.
+- **Alpha Guard** on the portal, the extension, and Discord.
+- **Alpha Trench packages** ship with a SHA-256 and a VirusTotal report for that exact zip. The published 0.9.540 Windows and Safari builds scanned **0 malicious** and **0 suspicious**. That is evidence for those hashes, not a promise that every future build is clean. Reports live in the [Alpha Trench security note](https://github.com/JohnnyxSmokes/alpha-trench/blob/main/docs/SECURITY.md).
 
-Auditables (extension package, store listings, VirusTotal) ship when release artifacts exist. Platform monorepo remains private by default.
+The platform monorepo stays private. Entity tracking and Alpha Spy run through the same server-side layer as the rest of the intel desks.
 
 ---
 
@@ -210,7 +224,7 @@ Full synopsis: [alpha-tek-whitepaper](https://github.com/JohnnyxSmokes/alpha-tek
 | **Dev heat** | [github.com/JohnnyxSmokes](https://github.com/JohnnyxSmokes) contribution graph |
 | **Community** | [discord.gg/epicalpha](https://discord.gg/epicalpha) |
 
-Thousands of commits on the current platform era, grounded in a **14+ year** crypto track (BTC 2012 → present). Daily shipping discipline (Cursor Day **81** and counting). Private repositories intentionally hide competitive implementation while the **green grid** stays verifiable.
+Thousands of commits on the current platform era, grounded in a **14+ year** crypto track (BTC 2012 to present). The public changelog is the ship log. Private repositories hide competitive implementation while the contribution graph stays verifiable.
 
 ---
 
