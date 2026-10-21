@@ -284,7 +284,7 @@ One ecosystem. One brand.
     </tr>
     <tr>
       <td align="center"><strong>Epic Alpha Discord</strong></td>
-      <td align="center"><a href="https://github.com/JohnnyxSmokes/epic-alpha-discord">epic-alpha-discord</a></td>
+      <td align="center"><a href="https://github.com/JohnnyxSmokes/alpha-tek-discord">alpha-tek-discord</a></td>
     </tr>
     <tr>
       <td align="center"><strong>Alpha Trench Windows</strong></td>
