@@ -1,11 +1,11 @@
 <!--
-  PUBLIC product footprint — Alpha Tek web portal.
-  No private source. Sell the product, point to alphatek.app.
+  PUBLIC product footprint. Alpha Tek web portal.
+  No private source. The product is public. The warehouse stays private.
 -->
 
 <p align="center">
   <a href="https://www.alphatek.app">
-    <img src="assets/banner.png" alt="Alpha Tek — Crypto Intelligence Portal" width="100%" />
+    <img src="assets/alpha-tek-lockup-nav.png" alt="AlphaTek" width="720" />
   </a>
 </p>
 
@@ -19,8 +19,9 @@
   </p>
 
   <p>
-    Live production portal for traders, researchers, and operators who want real multi-surface alpha —
-    without cloning a monorepo or trusting vaporware decks.
+    For more than three years, Epic Alpha offered free tools, alpha, and intel.<br />
+    That chapter is morphing into an ecosystem: <strong>subscriptions and Discord licensing</strong>, <strong>AAI utility</strong>, and the <strong>Alpha Trench extension</strong>.<br />
+    The live product is [AlphaTek.App](https://www.alphatek.app). The warehouse stays private.
   </p>
 
   <p>
@@ -28,8 +29,12 @@
       <img src="https://img.shields.io/badge/Live-AlphaTek.App-a855f7?style=for-the-badge&labelColor=0A0A0A" alt="AlphaTek.App" />
     </a>
     &nbsp;
-    <a href="https://www.alphatek.app/changelog">
-      <img src="https://img.shields.io/badge/Build%20Journey-Changelog-00D4FF?style=for-the-badge&labelColor=0A0A0A" alt="Changelog" />
+    <a href="https://alphatek.app/whitepaper">
+      <img src="https://img.shields.io/badge/Whitepaper-Platform%201.3%20%C2%B7%20AAI%202.1-a855f7?style=for-the-badge&labelColor=0A0A0A" alt="Whitepaper" />
+    </a>
+    &nbsp;
+    <a href="https://alphatek.app/alpha-trench">
+      <img src="https://img.shields.io/badge/Alpha%20Trench-0.9.542-06b6d4?style=for-the-badge&labelColor=0A0A0A" alt="Alpha Trench 0.9.542" />
     </a>
     &nbsp;
     <a href="https://discord.gg/sPW3tJk">
@@ -39,38 +44,75 @@
 
   <p>
     <img src="https://img.shields.io/badge/Product-Web%20Portal-22c55e?style=flat-square&labelColor=0A0A0A" alt="Web portal" />
+    <img src="https://img.shields.io/badge/API-1%2C500%2B%20Endpoints-00D4FF?style=flat-square&labelColor=0A0A0A" alt="1,500+ endpoints" />
+    <img src="https://img.shields.io/badge/AAI-Devnet%20Proven-a855f7?style=flat-square&labelColor=0A0A0A" alt="AAI devnet proven" />
     <img src="https://img.shields.io/badge/Code-Private%20By%20Design-f59e0b?style=flat-square&labelColor=0A0A0A" alt="Code private" />
-    <img src="https://img.shields.io/badge/Status-Production-a855f7?style=flat-square&labelColor=0A0A0A" alt="Production" />
+  </p>
+
+  <p>
+    <img src="assets/flywheel.png" alt="AAI flywheel: Alpha Trench, subscriptions and licensing, platform revenue, 25 percent buyback, burn, staking, treasury, price support, growth" width="100%" />
   </p>
 
 </div>
 
 ---
 
+<div align="center">
+
 ## What This Repo Is
 
-A **public product footprint** for the **Alpha Tek web portal** — the live site at [AlphaTek.App](https://www.alphatek.app).
+A public product footprint for the Alpha Tek web portal, the live site at [AlphaTek.App](https://www.alphatek.app).
 
-| Included | Not included |
-|----------|----------------|
-| Product map, surface guide, partners, flywheel | Application source code |
-| Links to live product + Build Journey | Infrastructure secrets / ops |
-| Honest public-vs-private boundary | Private monorepo access |
+<table>
+  <thead>
+    <tr>
+      <th align="center">Included</th>
+      <th align="center">Not included</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">Product map, surface guide, partners, flywheel</td>
+      <td align="center">Application source code</td>
+    </tr>
+    <tr>
+      <td align="center">Links to the live product and Build Journey</td>
+      <td align="center">Infrastructure secrets and ops</td>
+    </tr>
+    <tr>
+      <td align="center">The public and private boundary</td>
+      <td align="center">Private monorepo access</td>
+    </tr>
+  </tbody>
+</table>
 
-Core platform code stays private until deliberate open releases. The **product** is public; the **warehouse** is not.
+Core platform code stays private until a deliberate open release. The product is public. The warehouse is not.
 
 ---
 
 ## Why The Portal Exists
 
-Most “crypto terminal” products fragment users into:
+Most crypto terminals split the work across eight charts, a chat dump, and a safety tool on someone else's brand.
 
-- eight charts with no shared memory  
-- Discord dumps that never become a workflow  
-- Telegram heat with no journal  
-- safety tools that live on someone else’s brand  
+Alpha Tek puts that work in one browser product: see what is moving, open a token, check social and KOL heat, practice in Alpha Trench, and route value through subscriptions, licensing, and AAI.
 
-**Alpha Tek** puts intelligence in **one browser product**: Discover what is moving, open a token context, check social / TG / KOL heat, practice or execute from the trench client, and route value through subscriptions and **AAI** so free tools can survive.
+---
+
+## The Flywheel
+
+Traders enter through **Alpha Trench**. Subscriptions, tipping, and Discord licensing fund the platform. **25% of platform revenue** is designed for buybacks. That buyback splits **50% burn**, **30% staking pool**, and **20% treasury**.
+
+<p>
+  <img src="assets/revenue-split.png" alt="Platform revenue: 25 percent to buyback, then 50 percent burn, 30 percent staking pool, 20 percent treasury" width="100%" />
+</p>
+
+AAI access tiers, from the current paper:
+
+<p>
+  <img src="assets/access-tiers.png" alt="AAI access tiers: Staker 1,000, Holder 5,000, Whale 50,000, staking 15 to 30 percent APY" width="100%" />
+</p>
+
+On-chain programs are proven on Solana devnet. Mainnet stays gated on an external audit. The product does not wait on that gate.
 
 ---
 
@@ -88,43 +130,122 @@ flowchart LR
   provenance --> explorer["Meme Scope and Movers"]
 ```
 
-- **56 upstream routes audited** through production proxy.
-- **35 live JSON routes** and **4 auth-gated routes** cataloged.
-- **16 retired routes** blocked before runtime network egress.
-- Pump.fun and BONK/Raydium rows stay labeled and independently selectable.
-- Last-good snapshots and per-source circuits prevent one upstream failure from blanking the desk.
+- **56 upstream routes audited** through the production proxy
+- **35 live JSON routes** and **4 auth-gated routes** cataloged
+- **16 retired routes** blocked before runtime network egress
+- Pump.fun and BONK/Raydium rows stay labeled and independently selectable
+- Last-good snapshots and per-source circuits keep one upstream failure from blanking the desk
 
-![Pump.fun Ingestion Resilience](https://www.AlphaTek.App/marketing/infographics/pump-ingestion-resilience-2026-08/01-live-parity.png)
+<p>
+  <img src="https://www.alphatek.app/marketing/infographics/pump-ingestion-resilience-2026-08/01-live-parity.png" alt="Pump.fun ingestion resilience: live parity across independent lanes" width="100%" />
+</p>
 
 ---
 
-## Product Surfaces (Live)
+## Product Surfaces
 
-| Surface | Job |
-|---------|-----|
-| **Explorer** | Multi-chain market / token context — depth without noise |
-| **Discover** | Narrative, pool, and heat discovery across feeds |
-| **Pump.fun / launch rails** | New / bonding / graduated context where Solana trench lives |
-| **Wallet / portfolio** | Multi-chain wallet views and enrichment where connected |
-| **Quant** | Social trading layer — calls, flex, profiles, performance context |
-| **TG Arena** | Telegram-call structured alpha for operators |
-| **KOL Scope** | Influencer / social heat without fake certainty |
-| **Alpha Guard** | Host, domain, mint, and approval-awareness under Alpha brand |
-| **Alpha Terminal** | Hybrid coin pages (majors + catalog) for research-grade context |
-| **Trench Replay Theater** | Wallet + token replay, **Trench Cast**, Forecast, drawings — [open theater](https://www.alphatek.app/dashboard/alpha-replay) |
-| **Market Replay** | Any token page → fullscreen chart playback, presentation mode |
-| **Alpha Academy** | Interactive education paths (courses, quizzes, certificates) |
-| **AAI Hub** | Stake / claim / utility rails (devnet program proof; mainnet gated) |
-| **News Hub** | One merged headline desk: exchange news, CryptoRank, CoinGecko Buzz, Bitcoin.com |
-| **Market Intel** | Global metrics, market pulse, ETF net flow, derivatives, cycle indicators, click-through price chart |
-| **Watchlist** | Saved coins with price, market cap, volume, and 24h direction |
-| **Alpha Spy** | Entity and connection context for mints and wallets |
-| **Alpha Trench extension** | Instant Trade, paper books, Guard, Mint Intel. Linked sessions post to the live trench leaderboard and weekly trade contests |
-| **API Library** | **1,500+** platform endpoints behind one Alpha Tek session. Public catalog on the site, keys stay server-side |
-| **Alpha Tek MCP** | Coming soon. Same library, shaped for agents |
-| **Alpha Brain / MLM** | Append-only memory for calls, search heat, and replay. Query by mint, fast enough to rank Trench Cast and paper context |
-| **Subscribe / Help** | Stripe payments and support |
-| **Build Journey / Changelog** | Public ship log and contribution narrative |
+<table>
+  <thead>
+    <tr>
+      <th align="center">Surface</th>
+      <th align="center">Job</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>Explorer</strong></td>
+      <td align="center">Multi-chain market and token context</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Discover</strong></td>
+      <td align="center">Narrative, pool, and heat discovery</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Pump.fun / launch rails</strong></td>
+      <td align="center">New, bonding, and graduated context</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Wallet / portfolio</strong></td>
+      <td align="center">Multi-chain wallet views where connected</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Quant</strong></td>
+      <td align="center">Calls, flex, profiles, performance context</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>TG Arena</strong></td>
+      <td align="center">Telegram-call structured alpha</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>KOL Scope</strong></td>
+      <td align="center">Influencer and social heat</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Alpha Guard</strong></td>
+      <td align="center">Host, domain, mint, and approval awareness</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Alpha Terminal</strong></td>
+      <td align="center">Hybrid coin pages for majors and the catalog</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Trench Replay Theater</strong></td>
+      <td align="center"><a href="https://www.alphatek.app/dashboard/alpha-replay">Cast, Forecast, wallet and chart playback</a></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Market Replay</strong></td>
+      <td align="center">Any token page, fullscreen chart playback</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Alpha Academy</strong></td>
+      <td align="center">Courses, quizzes, certificates</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>AAI Hub</strong></td>
+      <td align="center">Stake, claim, and utility. Devnet proof. Mainnet gated.</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>News Hub</strong></td>
+      <td align="center">One merged headline desk</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Market Intel</strong></td>
+      <td align="center">Global metrics, ETF flow, derivatives, cycle indicators</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Watchlist</strong></td>
+      <td align="center">Saved coins with price, market cap, volume, and 24h direction</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Alpha Spy</strong></td>
+      <td align="center">Entity and connection context for mints and wallets</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Alpha Trench</strong></td>
+      <td align="center">Instant Trade, paper books, Guard, Mint Intel. Version 0.9.542. Linked sessions feed the leaderboard and weekly contests.</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>API Library</strong></td>
+      <td align="center"><strong>1,500+</strong> platform endpoints behind one session. Keys stay server-side.</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Alpha Tek MCP</strong></td>
+      <td align="center">Reserved. Same library, shaped for agents. Ships after QA.</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Alpha Brain</strong></td>
+      <td align="center">Append-only memory for calls, search heat, and replay, queryable by mint</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Subscribe / Help</strong></td>
+      <td align="center">Stripe payments and support</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Build Journey</strong></td>
+      <td align="center"><a href="https://www.alphatek.app/changelog">Public ship log</a></td>
+    </tr>
+  </tbody>
+</table>
 
 **Open it:** [https://www.alphatek.app](https://www.alphatek.app)
 
@@ -133,128 +254,218 @@ flowchart LR
 ## How It Fits The Stack
 
 ```text
-                    ┌─────────────────────────┐
-                    │   Alpha Tek Portal      │
-                    │   alphatek.app          │
-                    │   Market + Trench Replay│
-                    └───────────┬─────────────┘
-           ┌────────────────────┼────────────────────┐
-           │                    │                    │
-           ▼                    ▼                    ▼
-   Epic Alpha Discord    Alpha Trench (ext)     AAI Utility
-   commands · feeds      paper · journal ·      stake · referral
-   free depth first      Trade Replay           flywheel
-                         live leaderboard
-                         weekly contests
-                         Trench Cast (web)
+Alpha Tek Portal · alphatek.app
+   |  Epic Alpha Discord · community and commands
+   |  Alpha Trench 0.9.542 · paper, journal, leaderboard, contests
+   +-> AAI utility · stake, referral, flywheel
 ```
 
-Everything is designed as **one ecosystem**, not three disconnected brands sharing a logo.
+One ecosystem. One brand.
 
-- Portal ↔ Discord for command-and-control + community proof
-- Portal ↔ Alpha Trench for pair-page execution, Guard, journal, and platform history replay
-- Portal ↔ the trench leaderboard and weekly trade contests when the extension session is linked
-- Portal ↔ **Trench Replay Theater** for Cast, Forecast, Market Replay, Wallet Replay
-- Portal ↔ Alpha Brain / MLM so calls, heat, and replay stay queryable by mint
-- Portal ↔ the API library (1,500+ endpoints). Alpha Tek MCP is the agent door, marked Coming Soon
-- Portal ↔ AAI Hub for utility, staking, and the referral ladder  
+- Portal and Discord share community proof and the command stack
+- Portal and Alpha Trench share pair-page execution, Guard, journal, and replay
+- Linked extension sessions feed the trench leaderboard and weekly trade contests
+- Trench Replay Theater holds Cast, Forecast, Market Replay, and Wallet Replay
+- Alpha Brain keeps calls, heat, and replay queryable by mint
+- The API library is 1,500+ endpoints. Alpha Tek MCP is the agent door, reserved until QA
+- AAI Hub holds utility, staking, and the referral ladder
 
-See also:
-
-| Product doc | Repo |
-|-------------|------|
-| **Ecosystem whitepaper synopsis** | [alpha-tek-whitepaper](https://github.com/JohnnyxSmokes/alpha-tek-whitepaper) |
-| **Epic Alpha Discord** | [epic-alpha-discord](https://github.com/JohnnyxSmokes/epic-alpha-discord) |
-| **Alpha Trench** | [alpha-trench](https://github.com/JohnnyxSmokes/alpha-trench) |
-| **Founder profile** | [JohnnyxSmokes](https://github.com/JohnnyxSmokes) |
+<table>
+  <thead>
+    <tr>
+      <th align="center">Product doc</th>
+      <th align="center">Repo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>Whitepapers</strong></td>
+      <td align="center"><a href="https://github.com/JohnnyxSmokes/alpha-tek-whitepaper">Platform 1.3 · AAI 2.1</a></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Epic Alpha Discord</strong></td>
+      <td align="center"><a href="https://github.com/JohnnyxSmokes/epic-alpha-discord">epic-alpha-discord</a></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Alpha Trench Windows</strong></td>
+      <td align="center"><a href="https://github.com/JohnnyxSmokes/alpha-trench-windows">0.9.542</a></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Alpha Trench Safari</strong></td>
+      <td align="center"><a href="https://github.com/JohnnyxSmokes/alpha-trench-safari">0.9.542</a></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Founder profile</strong></td>
+      <td align="center"><a href="https://github.com/JohnnyxSmokes">JohnnyxSmokes</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
-## Intelligence Partners (Integration Footprint)
+## Intelligence Partners
 
-Alpha branding is **public**. Vendor plumbing stays server-side. Partnerships and data rails powering the experience include (non-exhaustive, product language):
+Alpha branding is public. Vendor plumbing stays server-side. The rails behind the experience include, as a non-exhaustive map:
 
-| Domain | Partners / rails (illustrative) |
-|--------|----------------------------------|
-| **On-chain & wallets** | Moralis · Cielo · Helius-class Solana rails · Jupiter |
-| **DEX / launch discovery** | Pump.fun ecosystem · Raydium-class pools · Dex research anchors |
-| **Social / KOL** | KOL Scan-class boards · curated X/Telegram call pathways |
-| **Markets** | CoinGecko · CMC-class macro · Hyperliquid perps context · prediction markets |
-| **Auth & payments** | Privy wallet login · Stripe subscriptions · JWT sessions |
-| **Infra** | Production cloud hosting · PostgreSQL · institutional UX themes |
+<table>
+  <thead>
+    <tr>
+      <th align="center">Domain</th>
+      <th align="center">Rails</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>On-chain and wallets</strong></td>
+      <td align="center">Moralis · Cielo · Helius-class Solana rails · Jupiter</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Launch discovery</strong></td>
+      <td align="center">Pump.fun ecosystem · Raydium-class pools</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Social / KOL</strong></td>
+      <td align="center">KOL boards · curated X and Telegram call pathways</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Markets</strong></td>
+      <td align="center">CoinGecko · macro boards · Hyperliquid perps context · prediction markets</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Auth and payments</strong></td>
+      <td align="center">Privy wallet login · Stripe subscriptions · JWT sessions</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Infra</strong></td>
+      <td align="center">Production cloud hosting · PostgreSQL · institutional themes</td>
+    </tr>
+  </tbody>
+</table>
 
-Exact routing is private IP. User-facing story: **many feeds, one Alpha layer.**
+Exact routing is private. The user-facing story is many feeds, one Alpha layer.
 
 ---
 
-## Security Posture (What Users Should Expect)
+## Security Posture
 
 - **Server-side keys only.** The browser never holds provider API secrets.
 - **Privy** for wallet login, **Stripe** for payments, **JWT** for the Alpha Tek session.
 - **Freshness-aware UI.** Live dashboards show honest data age.
 - **Alpha Guard** on the portal, the extension, and Discord.
-- **Alpha Trench packages** ship with a SHA-256 and a VirusTotal report for that exact zip. The published 0.9.542 Windows and Safari builds scanned **0 malicious** and **0 suspicious**. That is evidence for those hashes, not a promise that every future build is clean. Reports live in the [Alpha Trench security note](https://github.com/JohnnyxSmokes/alpha-trench/blob/main/docs/SECURITY.md).
+- **Alpha Trench 0.9.542** ships with a SHA-256 and a public VirusTotal report. Windows scanned 0 malicious, 0 suspicious, 66 undetected. Safari scanned 0 malicious, 0 suspicious, 65 undetected. That is evidence for those hashes. Reports: [Windows](https://www.virustotal.com/gui/file/90542940d9e457a9c817359cfc6948c1201ffaf53f22fb3aa1ba717d3da8833f) · [Safari](https://www.virustotal.com/gui/file/80b7bc6478f2eba64d9d327f69a5f93688890dcecc23bea618ddb7952b07da2d).
 
 The platform monorepo stays private. Entity tracking and Alpha Spy run through the same server-side layer as the rest of the intel desks.
 
 ---
 
-## Economics (Why It’s Sustainable)
+## Three Rails
 
-Free intelligence for years is not a business model by itself. Portal sustainability routes through:
+For more than three years, free tools, alpha, and intel were the whole model. That chapter is morphing. Portal sustainability now runs on three rails:
 
-1. **Subscriptions** — unlock paid depth on alphatek.app  
-2. **Discord product / licensing** — enterprise bot and channel packing  
-3. **AAI utility** — access tiers, staking, credits — with **25% of platform revenue** designed for buybacks (deflationary flywheel design)  
+1. **Subscriptions and Discord licensing.** Paid depth on alphatek.app, and bot and channel packs for other communities.
+2. **AAI utility.** Access tiers, staking, and credits. **25% of platform revenue** is designed for buybacks: 50% burn, 30% staking pool, 20% treasury.
+3. **Alpha Trench.** The extension is the entry. Version 0.9.542. Paper first. Mainnet Instant Trade stays locked until armed.
 
-Honest boundary: on-chain programs are **publicly proven on Solana devnet**; mainnet requires external audit gates. Product and Discord do not wait on token theater.
-
-Full synopsis: [alpha-tek-whitepaper](https://github.com/JohnnyxSmokes/alpha-tek-whitepaper).  
-**AAI Hub micro-footprint:** [aai-hub](https://github.com/JohnnyxSmokes/aai-hub) · [Open hub](https://www.alphatek.app/dashboard/aai)  
-**Discord licensing micro-footprint:** [discord-licensing](https://github.com/JohnnyxSmokes/discord-licensing)
+Full synopsis: [alpha-tek-whitepaper](https://github.com/JohnnyxSmokes/alpha-tek-whitepaper).
+**AAI Hub:** [aai-hub](https://github.com/JohnnyxSmokes/aai-hub) · [Open hub](https://www.alphatek.app/dashboard/aai)
+**Discord licensing:** [discord-licensing](https://github.com/JohnnyxSmokes/discord-licensing)
 
 ---
 
-## Build In Public (Without Open Source Dumping)
+## Build In Public
 
-| Proof surface | Where |
-|---------------|--------|
-| **Live product** | [alphatek.app](https://www.alphatek.app) |
-| **Ship log** | [alphatek.app/changelog](https://www.alphatek.app/changelog) — Build Journey |
-| **Dev heat** | [github.com/JohnnyxSmokes](https://github.com/JohnnyxSmokes) contribution graph |
-| **Community** | [discord.gg/sPW3tJk](https://discord.gg/sPW3tJk) |
+<table>
+  <thead>
+    <tr>
+      <th align="center">Proof</th>
+      <th align="center">Where</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>Live product</strong></td>
+      <td align="center"><a href="https://www.alphatek.app">alphatek.app</a></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Ship log</strong></td>
+      <td align="center"><a href="https://www.alphatek.app/changelog">alphatek.app/changelog</a></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Dev heat</strong></td>
+      <td align="center"><a href="https://github.com/JohnnyxSmokes">github.com/JohnnyxSmokes</a></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Community</strong></td>
+      <td align="center"><a href="https://discord.gg/sPW3tJk">discord.gg/sPW3tJk</a></td>
+    </tr>
+  </tbody>
+</table>
 
-Thousands of commits on the current platform era, grounded in a **14+ year** crypto track (BTC 2012 to present). The public changelog is the ship log. Private repositories hide competitive implementation while the contribution graph stays verifiable.
+Thousands of commits on the current platform era, on a 14+ year crypto track from BTC 2012. The public changelog is the ship log. Private repositories hold the implementation. The contribution graph stays verifiable.
 
 ---
 
-## Who It’s For
+## Who It Is For
 
-- Newcomers who got wrecked and want **structured free tools first**  
-- Operators living in TG / Discord / pair pages all day  
-- Investors evaluating **replication cost** of a real multi-surface stack  
-- Partners who need **one brand** for intel, not fifteen vendor badges  
+- People who got wrecked, refuse to get wrecked again, or only have a little capital
+- Operators living in Telegram, Discord, and pair pages
+- Investors weighing the replication cost of a real multi-surface stack
+- Partners who need one brand for intel
 
 ---
 
 ## Links
 
-| | |
-|--|--|
-| **Portal** | https://www.alphatek.app |
-| **Changelog** | https://www.alphatek.app/changelog |
-| **AAI Hub** | https://www.alphatek.app/dashboard/aai |
-| **Academy** | https://www.alphatek.app/dashboard/alpha-academy |
-| **Discord** | https://discord.gg/sPW3tJk |
-| **X** | https://x.com/BitcoinHomework |
+<table>
+  <thead>
+    <tr>
+      <th align="center"></th>
+      <th align="center"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>Portal</strong></td>
+      <td align="center"><a href="https://www.alphatek.app">https://www.alphatek.app</a></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Changelog</strong></td>
+      <td align="center"><a href="https://www.alphatek.app/changelog">https://www.alphatek.app/changelog</a></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Whitepaper</strong></td>
+      <td align="center"><a href="https://alphatek.app/whitepaper">https://alphatek.app/whitepaper</a></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>AAI Hub</strong></td>
+      <td align="center"><a href="https://www.alphatek.app/dashboard/aai">https://www.alphatek.app/dashboard/aai</a></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Academy</strong></td>
+      <td align="center"><a href="https://www.alphatek.app/dashboard/alpha-academy">https://www.alphatek.app/dashboard/alpha-academy</a></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Alpha Trench</strong></td>
+      <td align="center"><a href="https://alphatek.app/alpha-trench">https://alphatek.app/alpha-trench</a></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Discord</strong></td>
+      <td align="center"><a href="https://discord.gg/sPW3tJk">https://discord.gg/sPW3tJk</a></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>X</strong></td>
+      <td align="center"><a href="https://x.com/BitcoinHomework">https://x.com/BitcoinHomework</a></td>
+    </tr>
+  </tbody>
+</table>
 
----
+<p>
+  <img src="assets/alphatek-mark-clear.png" alt="AlphaTek" width="180" />
+</p>
 
-<div align="center">
-
-  <sub>
-    Alpha Tek Portal · Public product footprint · Code private by design<br />
-    Built with passion since BTC 2012 · Epic Alpha · Alpha Tek
-  </sub>
+<sub>
+  Alpha Tek Portal · Public product footprint · Code private by design<br />
+  Built with passion since BTC 2012 · Epic Alpha · Alpha Tek
+</sub>
 
 </div>
