@@ -38,7 +38,7 @@
     </a>
     &nbsp;
     <a href="https://discord.gg/sPW3tJk">
-      <img src="https://img.shields.io/badge/Discord-Epic%20Alpha-5865F2?style=for-the-badge&labelColor=0A0A0A&logo=discord&logoColor=white" alt="Discord" />
+      <img src="https://img.shields.io/badge/Discord-AlphaTek-5865F2?style=for-the-badge&labelColor=0A0A0A&logo=discord&logoColor=white" alt="AlphaTek Discord" />
     </a>
   </p>
 
@@ -255,7 +255,7 @@ flowchart LR
 
 ```text
 Alpha Tek Portal · alphatek.app
-   |  Epic Alpha Discord · community and commands
+   |  AlphaTek Discord · community and commands
    |  Alpha Trench 0.9.542 · paper, journal, leaderboard, contests
    +-> AAI utility · stake, referral, flywheel
 ```
@@ -283,7 +283,7 @@ One ecosystem. One brand.
       <td align="center"><a href="https://github.com/JohnnyxSmokes/alpha-tek-whitepaper">Platform 1.3 · AAI 2.1</a></td>
     </tr>
     <tr>
-      <td align="center"><strong>Epic Alpha Discord</strong></td>
+      <td align="center"><strong>AlphaTek Discord</strong></td>
       <td align="center"><a href="https://github.com/JohnnyxSmokes/alpha-tek-discord">alpha-tek-discord</a></td>
     </tr>
     <tr>
