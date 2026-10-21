@@ -14,8 +14,8 @@
   <h1>Alpha Tek Portal</h1>
 
   <p>
-    <strong>Crypto Intelligence At One View</strong><br />
-    <sub>Web platform · Multi-chain · Explorer · Discover · News · Market Intel · TG Arena · KOL · Alpha Guard · Alpha Trench · AAI Hub</sub>
+    <strong>Crypto intelligence at one view.</strong><br />
+    <sub>AlphaTek.App · Alpha Trench 0.9.542 · Platform 1.3 · AAI 2.1</sub>
   </p>
 
   <p>
