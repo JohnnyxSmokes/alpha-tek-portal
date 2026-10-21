@@ -136,8 +136,10 @@ flowchart LR
 - Pump.fun and BONK/Raydium rows stay labeled and independently selectable
 - Last-good snapshots and per-source circuits keep one upstream failure from blanking the desk
 
+Those three lanes are one path. The full layer is 53 production partners.
+
 <p>
-  <img src="https://www.alphatek.app/marketing/infographics/pump-ingestion-resilience-2026-08/01-live-parity.png" alt="Pump.fun ingestion resilience: live parity across independent lanes" width="100%" />
+  <img src="assets/alpha-web.png" alt="Alpha Web: 53 production partners across data, venues, markets, news, and infrastructure, drawn into the Alpha Tek mark" width="100%" />
 </p>
 
 ---
