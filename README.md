@@ -193,7 +193,7 @@ Exact routing is private IP. User-facing story: **many feeds, one Alpha layer.**
 - **Privy** for wallet login, **Stripe** for payments, **JWT** for the Alpha Tek session.
 - **Freshness-aware UI.** Live dashboards show honest data age.
 - **Alpha Guard** on the portal, the extension, and Discord.
-- **Alpha Trench packages** ship with a SHA-256 and a VirusTotal report for that exact zip. The published 0.9.540 Windows and Safari builds scanned **0 malicious** and **0 suspicious**. That is evidence for those hashes, not a promise that every future build is clean. Reports live in the [Alpha Trench security note](https://github.com/JohnnyxSmokes/alpha-trench/blob/main/docs/SECURITY.md).
+- **Alpha Trench packages** ship with a SHA-256 and a VirusTotal report for that exact zip. The published 0.9.542 Windows and Safari builds scanned **0 malicious** and **0 suspicious**. That is evidence for those hashes, not a promise that every future build is clean. Reports live in the [Alpha Trench security note](https://github.com/JohnnyxSmokes/alpha-trench/blob/main/docs/SECURITY.md).
 
 The platform monorepo stays private. Entity tracking and Alpha Spy run through the same server-side layer as the rest of the intel desks.
 
